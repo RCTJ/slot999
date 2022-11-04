@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle slot999",
+        "command": "slot999:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "slot999",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "slot999:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
